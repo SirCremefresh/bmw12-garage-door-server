@@ -1,4 +1,4 @@
-
+[![Snap Status](https://build.snapcraft.io/badge/SirCremefresh/bmw12-garage-door-server.svg)](https://build.snapcraft.io/user/SirCremefresh/bmw12-garage-door-server)
 
 # install
 snapcraft prime    
