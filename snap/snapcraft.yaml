@@ -1,0 +1,24 @@
+name: bmw12-garage-door-server
+version: '0.1'
+summary: A server to check the garage door status
+description: |
+  A server to check the garage door status
+
+grade: devel
+confinement: strict
+
+apps:
+  bmw12-garage-door-server:
+    command: bin/bmw12-garage-door-server
+    daemon: simple
+    restart-condition: always
+    plugs: [network-bind]
+
+
+parts:
+  bmw12-garage-door-server:
+    plugin: nodejs
+    source: .
+    node-engine: 10.9.0
+    node-package-manager: npm
+
