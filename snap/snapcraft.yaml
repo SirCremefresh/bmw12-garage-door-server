@@ -4,7 +4,7 @@ summary: A server to check the garage door status
 description: |
   A server to check the garage door status
 
-grade: devel
+grade: stable
 confinement: strict
 
 apps:
